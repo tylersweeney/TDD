@@ -1,0 +1,16 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "Learning TDD",
+  "main": "index.js",
+  "scripts": {
+    "watch": "mocha -w *.test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Sweeney",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
